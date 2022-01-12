@@ -1,0 +1,42 @@
+body > #root > div {
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: 'center';
+  width: 100%;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  border: 5px 1px 1px 1px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 7%;
+  background-color: orange;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+button {
+  border: 10px;
+  border-radius: 5px;
+  width: 50%;
+  height: 8%;
+}
+
+#clearList {
+  margin-bottom: 50px;
+}
+
+#listBox {
+  margin-bottom: 10px;
+  width: 45%;
+  border-radius: 10px;
+  margin: 10px;
+}
